@@ -1,0 +1,112 @@
+
+
+.ball {
+    position: absolute;
+    border-radius: 50%;
+    will-change: opacity;
+  }
+  
+  #ball1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    animation: blink 0.6s infinite;
+  }
+  
+  #ball2 {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    animation: blink 0.4s infinite;
+  }
+  
+  #ball3 {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    animation: blink 0.6s infinite;
+  }
+  
+  #ball4 {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    animation: blink 0.2s infinite;
+  }
+  
+  #ball5 {
+    width: 90px;
+    height: 90px;
+    background-color: purple;
+    animation: blink 0.7s infinite;
+  }
+  #ball6 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation: blink 0.8s infinite;
+  }
+  #ball7 {
+    width: 110px;
+    height: 110px;
+    background-color: pink;
+    animation: blink 0.4s infinite;
+  }
+  #ball8 {
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    animation: blink 0.9s infinite;
+  }
+  #ball9 {
+    width: 130px;
+    height: 130px;
+    background-color: aqua;
+    animation: blink 0.8s infinite;
+  }
+  #ball10 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    animation: blink 0.3s infinite;
+  }
+  #ball11 {
+    width: 140px;
+    height: 140px;
+    background-color: gray;
+    animation: blink 0.4s infinite;
+  }
+  #ball12 {
+    width: 30px;
+    height: 30px;
+    background-color: olivedrab;
+    animation: blink 0.5s infinite;
+  }
+  #ball13 {
+    width: 20px;
+    height: 20px;
+    background-color: lawngreen;
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+  body {
+    height: 100%;
+    background-color: #333;
+  }
+  
+  body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background: url('mitphoto1.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  }
