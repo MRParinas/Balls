@@ -1,2 +1,17 @@
 # Balls
-Bouncing balls at MIT
+
+Embarking on the "Balls Project" marked a pivotal chapter in my learning journey as a 50-year-old student delving into the realms of HTML, CSS, and JavaScript for the first time. Having previously tackled projects that introduced me to the basics of web development and the manipulation of shapes through CSS, this project was a significant step forward, presenting the opportunity to breathe life into static elements with dynamic movements and interactivity.
+
+The project's core involved creating an interactive simulation titled "Bouncing Balls Earthquake at MIT," an intriguing representation of balls bouncing around the screen, as if caught in an unending collision of balls. The premise was simple, yet the implementation required a deeper understanding and integration of HTML for structure, CSS for styling, and JavaScript for functionality—skills that I had been cultivating but had yet to fully intertwine.
+
+As an older student venturing into coding for the first time, I faced the daunting task of not only learning more in each language but also practicing how to make them work together seamlessly. The challenge was not just in the coding itself but in shifting my mindset to think like a programmer, visualizing how static designs could be transformed into dynamic interactions.
+
+The project's HTML structure laid the foundation with div elements representing each ball, uniquely identified to apply individualized movements. The CSS, linked through the "balls.css" file, provided the visual aesthetics, from the balls' sizes and colors to the incorporation of keyframe animations that introduced a flickering effect, simulating the balls' vibrancy and energy.
+
+JavaScript was the key to bringing the balls to life, making them move across the screen in seemingly random patterns. Learning to select elements from the DOM and manipulate their positions was a critical skill I developed during this project. Through JavaScript, I created variables to store each ball's velocity and position, employed a mapping function to initialize these values randomly, and implemented a function to update these values continuously, simulating movement.
+
+Implementing edge detection logic to reverse the balls' directions upon hitting the screen's borders introduced me to collision detection concepts, an essential aspect of game development and interactive animations. This not only solidified my understanding of coordinate systems and element boundaries in web development but also allowed me to appreciate the intricacies of creating responsive, interactive web elements.
+
+The setInterval function was a revelation, showing me how JavaScript could be used to create animations by repeatedly invoking the moveBalls function, thereby updating the balls' positions in short intervals for smooth movement. This understanding of time intervals and asynchronous execution in JavaScript opened new doors to creating more complex and interactive web applications.
+
+Reflecting on the project, the "Balls Project" was more than just an exercise in web development; it was a testament to my growth as a student of coding. From zero knowledge to creating a web-based simulation, the journey was fraught with challenges, moments of frustration, and, ultimately, immense satisfaction. As an older student, I found that age was merely a number in the context of learning to code; the real barriers were self-doubt and fear of failure, both of which I worked through this project.
