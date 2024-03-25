@@ -15,12 +15,12 @@ function moveBalls() {
         ballsData[index].positionX += ballsData[index].velocityX;
         ballsData[index].positionY += ballsData[index].velocityY;
 
-        // Check for edge detection on x-axis and reverse direction if needed
+      
         if (ballsData[index].positionX > window.innerWidth - ball.offsetWidth || ballsData[index].positionX < 0) {
             ballsData[index].velocityX *= -1;
         }
 
-        // Check for edge detection on y-axis and reverse direction if needed
+       
         if (ballsData[index].positionY > window.innerHeight - ball.offsetHeight || ballsData[index].positionY < 0) {
             ballsData[index].velocityY *= -1;
         }
@@ -32,5 +32,5 @@ function moveBalls() {
     
 }
 
-// Call the moveBalls function every 10 milliseconds for smoother animation
+// Call the moveBalls function every 10 milliseconds
 setInterval(moveBalls, 10);
